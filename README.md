@@ -1,9 +1,10 @@
 # Learn Linux
 
-# echo
-# shell
-# bash
-# user
-# group
-# sed
-# xargs
+#### echo
+#### shell
+#### bash
+#### user
+#### group
+#### sed
+#### xargs
+#### cut
