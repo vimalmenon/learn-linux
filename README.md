@@ -3,8 +3,10 @@
 ### Covered
 - [x] [User and Group](./user)
 - [ ] [Permission](./permission)
+- [ ] [Folder and Links](./folder)
  
 ### To be covered
+#### cat, less, tail
 #### grep
 #### echo
 #### shell scripting
@@ -14,5 +16,6 @@
 #### cut
 #### awk
 #### man
+#### resync
 #### tag, gzip
-#### links (Symbolic and hard)
+#### SCP, SSH
