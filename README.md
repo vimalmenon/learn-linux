@@ -1,6 +1,7 @@
 # Learn Linux
 
-### [User and Group](./user)
+### Covered
+- [ ] [User and Group](./user)
 
 ### To be covered
 #### echo
