@@ -1,6 +1,6 @@
 # Learn Linux
 
-### (User)[./user]
+### [User](./user)
 
 ###
 ### To be covered
