@@ -1,5 +1,9 @@
 # Learn Linux
 
+### (User)[./user]
+
+###
+### To be covered
 #### echo
 #### shell
 #### bash
@@ -8,3 +12,5 @@
 #### sed
 #### xargs
 #### cut
+#### grep
+#### awk
