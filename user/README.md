@@ -50,12 +50,21 @@ groupadd coder
 groupdel coder
 ```
 
-### Add User to a Group
+#### Add User to a Group
 ```sh
 usermod -aGg ${Group} ${User}
 ```
-- -a(Optional): This is to append
+Or
+```sh
+gpasswd
+```
+- -a(Optional): This is to add User
+- -d(Optional): This is to remove User
 - -G(Optional): Add as secondary Group
 - -g(Optional): Add as primary Group
 - Group: Give group as arguments
 - User: Give group as arguments
+
+#### How to remove user from Group
+```sh
+```
