@@ -41,3 +41,21 @@ groups
 ```sh
 cat /etc/group
 ```
+#### Create a Group
+```sh
+groupadd coder
+```
+#### Delete a Group
+```sh
+groupdel coder
+```
+
+### Add User to a Group
+```sh
+usermod -aGg ${Group} ${User}
+```
+- -a(Optional): This is to append
+- -G(Optional): Add as secondary Group
+- -g(Optional): Add as primary Group
+- Group: Give group as arguments
+- User: Give group as arguments

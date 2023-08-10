@@ -5,15 +5,13 @@
 - [ ] [Permission](./permission)
  
 ### To be covered
+#### grep
 #### echo
-#### shell
+#### shell scripting
 #### bash
-#### user
-#### group
 #### sed
 #### xargs
 #### cut
-#### grep
 #### awk
 #### man
 #### tag, gzip
