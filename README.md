@@ -16,3 +16,5 @@
 #### grep
 #### awk
 #### man
+#### tag, gzip
+#### links (Symbolic and hard)

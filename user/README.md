@@ -24,9 +24,20 @@ userdel -r vimal
 ```sh
 passwd
 ```
-- Can give the user to add password
+- Can give the user as arguments
 
 ### View hashed password file
 ```sh
 cat etc/shadow
+```
+
+### Show groups
+```sh
+groups
+```
+- Can give the user as arguments
+
+#### Check all the Group
+```sh
+cat /etc/group
 ```
