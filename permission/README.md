@@ -35,3 +35,8 @@ chmod u+xrw ${file}
 - u+x: Will add execute command to User
 - g+x: Will add execute command to Group
 - O+x: Will add execute command to Other
+
+Add Permission with numbers
+```sh
+chmod 770 ${file}
+```
