@@ -1,8 +1,7 @@
 # Learn Linux
 
-### [User](./user)
+### [User and Group](./user)
 
-###
 ### To be covered
 #### echo
 #### shell
@@ -14,3 +13,4 @@
 #### cut
 #### grep
 #### awk
+#### man

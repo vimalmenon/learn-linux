@@ -1,4 +1,4 @@
-# User
+# User and Group
 
 #### Check all the User
 ```sh
@@ -13,9 +13,20 @@ whoami
 useradd -m vimal
 ```
 - -m (Optional): will create folder home dir
+- -r (Optional): will create system user
 #### Delete a User
 ```sh
 userdel -r vimal
 ```
 - -r (Optional): will delete home dir
 
+### Add Password
+```sh
+passwd
+```
+- Can give the user to add password
+
+### View hashed password file
+```sh
+cat etc/shadow
+```
