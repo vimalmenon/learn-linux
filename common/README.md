@@ -36,8 +36,13 @@ cat /etc/sudoers
 ```sh
 usermod -aG sudo ${user}
 ```
+####  Display what is allowed to be done
 ```sh
 sudo -l
+```
+### Allows to edit sudoers file
+```sh
+sudo visudo
 ```
 
 
