@@ -3,17 +3,20 @@
 ### Covered
 - [x] [User and Group](./user)
 - [x] [Permission](./permission)
-- [ ] [Folder and Links](./folder)
+- [x] [Folder and Links](./folder)
 - [ ] [Common](./common)
  
 ### To be covered
 #### grep
-#### shell scripting
-#### bash
+#### package manager
+#### shell scripting, bash
+#### Storage, volume
 #### sed
 #### xargs
 #### cut
 #### awk
 #### resync
 #### tag, gzip
+#### OpenSSH
+#### systemd, systemctl
 #### SCP, SSH

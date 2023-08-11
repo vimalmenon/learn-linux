@@ -1,2 +1,2 @@
 # Common
-#### cat, less, tail, echo, man, find
+#### cat, less, tail, echo, man, find, inode, touch
