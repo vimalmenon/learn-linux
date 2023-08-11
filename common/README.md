@@ -11,5 +11,10 @@ echo $?
 ```sh
 !!
 ```
+#### Create a file
+```sh
+touch -m ${file}
+```
+- -m : Change the DateTime of the
 
 #### cat, less, tail, echo, man, find, inode, touch
