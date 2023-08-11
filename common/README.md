@@ -15,6 +15,15 @@ echo $?
 ```sh
 touch -m ${file}
 ```
-- -m : Change the DateTime of the
+- -m : Change the DateTime of the file
+#### Show all path variable
+```sh
+$PATH
+```
+#### Show content of file
+```sh
+cat ${file}
+```
 
-#### cat, less, tail, echo, man, find, inode, touch
+
+#### less, tail, head, echo, man, find, inode, touch, wc, wget

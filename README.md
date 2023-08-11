@@ -21,3 +21,4 @@
 #### OpenSSH
 #### systemd, systemctl
 #### SCP, SSH
+#### ps, kill
