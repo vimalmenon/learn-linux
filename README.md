@@ -4,9 +4,9 @@
 - [x] [User and Group](./user)
 - [x] [Permission](./permission)
 - [ ] [Folder and Links](./folder)
+- [ ] [Common](./common)
  
 ### To be covered
-#### cat, less, tail, echo, man
 #### grep
 #### shell scripting
 #### bash
@@ -14,7 +14,6 @@
 #### xargs
 #### cut
 #### awk
-#### 
 #### resync
 #### tag, gzip
 #### SCP, SSH

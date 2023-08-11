@@ -35,8 +35,15 @@ chmod u+xrw ${file}
 - u+x: Will add execute command to User
 - g+x: Will add execute command to Group
 - O+x: Will add execute command to Other
+- -R : Will recursive add permission
 
 Add Permission with numbers
 ```sh
 chmod 770 ${file}
 ```
+Change the Ownership
+```sh
+chown ${user}:${group} ./folder
+```
+- user (Optional): User to change to
+- group (Optional): Group to change to
