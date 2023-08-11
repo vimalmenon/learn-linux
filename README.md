@@ -6,11 +6,12 @@
 - [x] [Folder and Links](./folder)
 - [ ] [Storage](./storage)
 - [ ] [Common](./common)
+- [ ] [Shell Scripting](./shell)
 
 ### To be covered
 #### grep
 #### package manager
-#### shell scripting, bash
+#### bash
 #### sed
 #### xargs
 #### cut
