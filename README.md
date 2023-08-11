@@ -5,12 +5,12 @@
 - [x] [Permission](./permission)
 - [x] [Folder and Links](./folder)
 - [ ] [Common](./common)
- 
+- [ ] [Storage](./storage)
+
 ### To be covered
 #### grep
 #### package manager
 #### shell scripting, bash
-#### Storage, volume
 #### sed
 #### xargs
 #### cut

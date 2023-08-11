@@ -20,7 +20,7 @@ userdel -r vimal
 ```
 - -r (Optional): will delete home dir
 
-### Add Password
+#### Add Password
 ```sh
 passwd
 ```

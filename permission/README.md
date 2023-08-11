@@ -41,7 +41,7 @@ chmod u+xrw ${file}
 ```sh
 chmod 770 ${file}
 ```
-Change the Ownership
+#### Change the Ownership
 ```sh
 chown ${user}:${group} ./folder
 ```
