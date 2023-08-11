@@ -5,7 +5,7 @@
 echo $?
 ```
 - 0  : Success
-- >0 : Failure
+- 1 : Failure
 
 #### Run previous command again
 ```sh
