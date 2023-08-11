@@ -1,10 +1,10 @@
 # Folder and Link
-# Folder and Links
-Find the INode
+
+#### Find the INode
 ```sh
 ls -il
 ```
-Create a soft link or symbolic
+#### Create a soft link or symbolic
 ```sh
 ln -s ${src} ${dest}
 
@@ -13,14 +13,14 @@ ln -s ${src} ${dest}
 - src:  Source of the file
 - dest: Destination of the file
 ***
+#### Notes
 - Inode is different in symbolic link
 - Symbolic link can be moved to external HD
 
-Create a hard link
+#### Create a hard link
 ```sh
 ln ${src} ${dest}
 ```
-***
 - Inode will be same for hard link
 - This doesn't need an option
 - Hard link is duplicate entry

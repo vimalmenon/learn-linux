@@ -1,9 +1,9 @@
 # Permission
-listing all the fils and folder 
+#### Listing all the fils and folder 
 ```sh
 ls -l
 ```
-Output to look like this
+#### ####Output to look like this
 ```sh
 drwxr-xr-x   2 root root 4096 Apr 18  2022 boot
 lrwxrwxrwx   1 root root    7 Jun 24 02:02 lib -> usr/lib
@@ -26,7 +26,7 @@ drwxr-xr-x   2 root root 4096 Apr 18  2022 boot
 - r-x : Permission for group
 - r-x : Permission for other
 
-Add Permission
+#### Add Permission
 ```sh
 chmod u+xrw ${file}
 ```
@@ -37,7 +37,7 @@ chmod u+xrw ${file}
 - O+x: Will add execute command to Other
 - -R : Will recursive add permission
 
-Add Permission with numbers
+#### Add Permission with numbers
 ```sh
 chmod 770 ${file}
 ```
