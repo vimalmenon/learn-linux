@@ -13,9 +13,6 @@
 #### package manager
 #### bash
 #### sed
-#### xargs
-#### cut
-#### awk
 #### resync
 #### tag, gzip
 #### OpenSSH

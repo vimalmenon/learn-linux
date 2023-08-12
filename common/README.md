@@ -50,7 +50,7 @@ sudo visudo
 seq 5
 ```
 
-#### xargs
+## xargs
 ```sh
 ls |xargs ls
 ```
@@ -62,6 +62,48 @@ ls |xargs ls
 ```sh
 time ${command}
 ```
+## awk
+```sh
+cat /etc/passwd | awk -F ":" '{print $2}'
+```
+- -F : delimiter to use
+
+```sh
+cat /etc/passwd|awk -F ":" '{print $1 " / "  $3}'
+```
+#### With regular expression to check
+```sh
+cat /etc/passwd|awk -F ":" '/^b/ {print $1}'
+```
+#### Checking if condition
+```sh
+ps |awk '{ if($1 != "PID") print $0}'
+```
+
+## cut
+```sh
+cut -c 1-5
+```
+```sh
+ps | cut -c 5-
+```
+- -c : Cut the charters
+- -d : Delimiter to use
 
 
+## tr
+##### Replace the character
+```sh
+ps | tr 'p' 'P'
+```
+```sh
+ps | tr -d 'p'  
+```
+- -s: Squeal
+- -d: Delimiter
+
+### Sed
+```sh
+
+```
 #### less, tail, head, echo, man, find, inode, touch, wc, wget
