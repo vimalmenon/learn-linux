@@ -106,4 +106,4 @@ ps | tr -d 'p'
 ```sh
 
 ```
-#### less, tail, head, echo, man, find, inode, touch, wc, wget
+#### less, tail, head, echo, man, find, inode, touch, wc, wget, curl
