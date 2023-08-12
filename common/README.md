@@ -45,5 +45,23 @@ sudo -l
 sudo visudo
 ```
 
+#### Sequence of number
+```sh
+seq 5
+```
+
+#### xargs
+```sh
+ls |xargs ls
+```
+- -I : Give the variable to use
+- -t : Give what command 
+- -n : Number of arguments
+- -p : Number of processes
+#### Time any command (Show how much time to took to execute)
+```sh
+time ${command}
+```
+
 
 #### less, tail, head, echo, man, find, inode, touch, wc, wget
