@@ -100,7 +100,11 @@ ps | tr 'p' 'P'
 ps | tr -d 'p'  
 ```
 - -s: Squeal
-- -d: Delimiter
+- -d: Delimiter#
+### Change the shell of the login
+```sh
+chsh
+```
 
 ### Sed
 ```sh
